@@ -1,9 +1,5 @@
-/* Global Layout Set-up */
-* { 
-  box-sizing: border-box;
-}
-  
-body {
+
+ body{
   margin: 0;
   padding: 0;
   text-align: center;
@@ -18,14 +14,16 @@ a {
   color: lightskyblue;
 }
 a:hover {
-  color: light#6633ff;
+  color: #f37b73;
+
+  
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background:light rgb(21, 21, 85);
+  
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -72,19 +70,22 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2);
+  border-radius: 5px;
 }
+
 .tag {
-  background-color: #efefef;
+  background-color: #c47b7b;
   color: black;
   padding: 10px;
   border-radius: 5px;
+  border-style:outset;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color:rgb(75, 75, 75);
-  color:lightcoral;
+  background-color:#c47b7b;
+  color:rgb(0, 0, 0);
 }
 .card {
   margin: 30px;
@@ -94,9 +95,10 @@ header .profile-image:hover {
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
+  border-style:ridge;
 }
 .card:hover {
-  border-color: rgb(2, 23, 31);
+  border-color: rgb(49, 49, 49);
 }
 
 ul.skills {
@@ -134,8 +136,8 @@ footer .copyright {
 
 footer ul {
   list-style-type: none;
-  margin: 40;
-  padding: 0;
+  margin: 40px;
+  
   
 }
 
@@ -206,8 +208,7 @@ a.social:hover {
   }
 
   footer {
-    font-size: 1.3em;
-    max-width: cover;
+    font-size: 1.3em; 
     background-color:rgb(148, 148, 148);
     text-align:center;
   }
