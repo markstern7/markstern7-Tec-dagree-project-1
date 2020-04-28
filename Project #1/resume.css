@@ -1,0 +1,29 @@
+h1 {
+    background-color:none;
+
+}
+h2{
+    background-color:none;
+}
+.profile-image{
+    border-image-slice:center;
+    margin-top: 100x;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all .5s;
+}
+.section-title {
+    text-transform: uppercase; 
+}
+
+body{
+text-align:left;
+background: url('images/sand.jpg');
+background-size: cover;
+overflow: hidden;
+background-position-y:center;  
+color:rgb(7, 7, 7);
+text-decoration-style: solid;
+  }
