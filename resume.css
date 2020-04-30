@@ -1,0 +1,13 @@
+.section-title {
+    text-transform: uppercase; 
+}
+
+body{
+text-align:left;
+background: url('images/sand.jpg');
+background-size: cover;
+overflow: hidden;
+background-position-y:center;  
+color:rgb(7, 7, 7);
+text-decoration-style: solid;
+  }
